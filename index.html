@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Zoe's Site</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css">
+		<link rel="stylesheet" type="text/css" href="css/screen.css">
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/cycle2.js"></script>
+		<script type="text/javascript" src="js/declarativeToggle.js"></script>
+		<script type="text/javascript" src="js/lightbox.min.js"></script>
+	</head>
+	
+	<body>
+	
+
+		<header class="section">
+
+			<!-- container -->
+			<div class="container">
+				<h1>Zoe Jane's Site</h1>
+				<p class="hide-small">Love music. Love life.</p>
+
+				<span data-toggle-target=".site-nav" class="toggle-btn">MENU</span>
+
+				<nav class="site-nav">
+					<ul class="group">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About Us</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+					</ul>
+				</nav>
+			</div><!-- /container -->
+
+		</header>
+
+		<div class="content-area group section">
+
+			<!-- container -->
+			<div class="container">
+
+				<!-- row -->
+				<div class="row">
+					
+					<!-- col -->
+					<div class="col col-md-8 push-down-sm">
+
+						<!-- thumbnails -->
+						<div class="thumbnails group">
+							<a href="images/strawberry.jpg" data-lightbox="gallery" data-title="This is a strawberry."><img src="images/strawberry-thumb.jpg" alt="Strawberry"></a>
+							<a href="images/dock.jpg" data-lightbox="gallery"><img src="images/dock-thumb.jpg" alt="Dock"></a>
+							<a href="images/strawberry.jpg"><img src="images/bee-thumb.jpg" alt="Bee"></a>
+							<a href="images/strawberry.jpg"><img src="images/bear-thumb.jpg" alt="Bear"></a>
+							<a href="images/strawberry.jpg"><img src="images/squirrel-thumb.jpg" alt="Squirrel"></a>
+							<a href="images/strawberry.jpg"><img src="images/trees-thumb.jpg" alt="Trees"></a>
+							<a href="images/strawberry.jpg"><img src="images/water-thumb.jpg" alt="Water"></a>
+							<a href="images/strawberry.jpg"><img src="images/duck-thumb.jpg" alt="Duck"></a>
+						</div><!-- /thumbnails -->
+
+						<article>
+
+
+							<h2>Photos</h2>
+
+							
+							<p>This is my <a href="favorite-colors.html">favorite color</a>.</p>
+
+							<div class="image-banner">
+								<img class="round-corner" src="images/life-on-the-tracks.jpg" alt="picture">
+								<div class="banner-description hide-small">
+									<p>This is a brief description of the image. This is a photograph of a squirel on the train tracks that was taken in Oregon. This squirrel was incredibly brave and enjoyed playing on the tracks.</p>
+								</div>
+							</div>
+							<p>
+								<div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+
+									<span class="cycle-prev">&laquo;</span>
+									<span class="cycle-next">&raquo;</span>
+
+									<span class="cycle-pager"></span>
+
+									<div class="slide">
+										<img src="images/bird.jpg" alt="picture">
+
+										<div class="slide-text">
+										<h3>Title</h3>
+										<p>This is the description.<a href="#" class="btn-a">Call to action!</a></p>
+										</div>
+									
+									<div class="slide">
+										<img src="images/duck.jpg" alt="picture">
+
+										<div class="slide-text">
+										<h3>Title Duck</h3>
+										<p>This is the description.</p>
+										</div>
+										
+										
+									</div>
+
+									<div class="slide">
+										<img src="images/bee.jpg" alt="picture">
+
+										<div class="slide-text">
+										<h3>Title</h3>
+										<p>This is the description.</p>
+										</div>
+										
+										
+									</div>
+								</div>
+							</p>
+
+						</article>
+
+
+						
+						<article>
+
+							<h2>Music</h2>
+
+
+							<p>I play the ukulele and have included a sample recording on this page.</p>
+							<audio controls>
+								<source src="audio/ukulele.mp3" type="audio/mpeg">
+								<source src="audio/ukulele.ogg" type="audio/ogg">
+								<a href="audio/ukulele.mp3">Ukulele audio recording</a>
+							</audio>
+
+						</article>
+
+
+						<article>
+							
+
+							<h2>Alternate Article Example 中文测试</h2>
+								<p>Posted on July 20, 2014 中文测试</p>
+
+						
+							
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+						
+							<p>这是一段中文的效果测试。中文的显示效果和英文是非常不同的。这是一段中文的效果测试。思源字体也内置了西文，其西文部分使用的是 Adobe Source 家族字体，即思源黑体集成 Source Sans Pro、思源宋体集成 Source Serif。无论是 Google 还是 Adobe 发行的版本都是如此。<span data-toggle-target=".full-text" data-toggle-text="Hide the full text..." class="toggle-btn read-more">Read the full text...</span></p>
+					
+
+							<div class="full-text">
+								<h3>Full Text</h3>
+
+							
+								<p>Ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+								<p>Posted in News category with 3 comments</p>
+							</div><!-- /full-text -->
+
+						</article>
+
+
+					</div><!-- /col -->
+
+					<!-- col -->
+					<div class="col col-md-4 sidebar">
+						<h3>Sidebar</h3>
+						<p>This is a place where we can include content relevant to the website as a whole. Ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div><!-- /col -->
+					
+				</div><!-- /row -->
+
+
+			</div><!-- /div class="container" -->
+		</div><!-- /div class="content-area" -->
+
+		<footer>
+			<p>&copy; 2017 - This is the footer of the website.</p>
+		</footer>
+
+	
+	</body>
+	
+</html>
